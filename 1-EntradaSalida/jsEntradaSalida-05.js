@@ -25,4 +25,4 @@ salidas:
    alert
    ID
    console.log
-   document.write
+   document.write*/
