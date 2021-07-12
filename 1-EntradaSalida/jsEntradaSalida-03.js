@@ -6,7 +6,11 @@ function mostrar()
 {
 	var nombreIngresado;
 	//nombreIngresado=txtIdNombre.value;
-	nombreIngresado = document.getElementById("txtIdNombre").value;//muestro el nombre por variable  se lee de derecha  a izquierda
+	nombreIngresado = document.getElementById("txtIdNombre").value;
+
+	/*con getElementById extraemos el dato de ahi para luego poder 
+	usarlo para guardar en una variable y mostrar por pantalla*/
+	
 	alert("su nombre es " + nombreIngresado)
 	}									
 
